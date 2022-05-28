@@ -4,7 +4,7 @@ import CountdownTimer from './components/CountdownTimer';
 function App() {
   return (
     <div className="App">
-      <CountdownTimer />
+      <CountdownTimer countdownTimestampMs={1653710574}/>
 
     </div>
   );
