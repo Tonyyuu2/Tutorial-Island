@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import classes from "./Quotes.module.css"
 
 function Quotes() {
   const [state, setState] = useState({
@@ -35,12 +36,26 @@ function Quotes() {
 
   return (
     <>
-      <div>{state.kanyeQuote1}</div>
-      <div>{state.kanyeQuote2}</div>
-      <div>{state.kanyeQuote3}</div>
-      <div>{state.kanyeQuote4}</div>
-      <div>{state.kanyeQuote5}</div>
-      <div>{state.kanyeQuote6}</div>
+      <div className={classes.container}>
+        <div className={classes.quotes}>
+          <div>{state.kanyeQuote1}</div>
+        </div>
+        <div className={classes.quotes}>
+          <div>{state.kanyeQuote2}</div>
+        </div>
+        <div className={classes.quotes}>
+          <div>{state.kanyeQuote3}</div>
+        </div>
+        <div className={classes.quotes}>
+          <div>{state.kanyeQuote4}</div>
+        </div>
+        <div className={classes.quotes}>
+          <div>{state.kanyeQuote5}</div>
+        </div>
+        <div className={classes.quotes}>
+          <div>{state.kanyeQuote6}</div>
+        </div>
+      </div>
     </>
   );
 }
