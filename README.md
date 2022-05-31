@@ -14,4 +14,6 @@ This mini project started out as a simple quote generator. However, I remembered
 
 To add, I was able to practice making multiple GET requests at once and use Promise.All method to populate the state with data. 
 
-!(The API in question)[https://kanye.rest/]
+*Need to add more styling later on*
+
+![The API in question](https://kanye.rest/)
